@@ -1,0 +1,69 @@
+/* AccountCard.css */
+
+.account-card {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1000px; /* Ajusta el ancho según tus preferencias */
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    z-index: 1000;
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 1.8em; /* Tamaño de fuente más grande */
+    margin: 15px 0; /* Margen ligeramente más grande */
+  }
+  
+  .card-content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start; /* Alinea el contenido en la parte superior */
+    padding: 30px; /* Padding más grande */
+    box-sizing: border-box; /* Asegura que el padding no afecte el tamaño total */
+  }
+  
+  .image-container {
+    flex-shrink: 0;
+    width: 60%; /* Ajusta el ancho de la imagen según tus preferencias */
+    padding-right: 30px; /* Separación entre la imagen y el texto */
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; /* Bordes más redondeados */
+  }
+  
+  .details-column {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .details-column p {
+    margin-bottom: 15px; /* Margen más grande */
+    font-size: 1.6em; /* Tamaño de fuente más grande */
+    overflow: hidden; /* Evita que el texto se salga del contenedor */
+    text-overflow: ellipsis; /* Añade puntos suspensivos si el texto es demasiado largo */
+    white-space: nowrap; /* Evita que el texto se divida en varias líneas */
+  }
+  
+  .close-card {
+    margin-top: 20px; /* Margen más grande */
+    padding: 12px 20px; /* Padding más grande */
+    font-size: 1.6em; /* Tamaño de fuente más grande */
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 6px; /* Bordes más redondeados */
+    cursor: pointer;
+  }
+  
+  /* ... (otros estilos existentes) */
+  

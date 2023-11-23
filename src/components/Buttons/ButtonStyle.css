@@ -1,0 +1,25 @@
+.create-button{
+    width: 120px;
+    height: 40px;
+    background: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    border: 1px solid #A0ACBA;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.text-create-button{
+    font-size: 18px;
+    /* background: red; */
+    text-align: center;
+    transform: translateY(-2px)
+}
+
+.ico-image svg{
+    width: 16px;
+    height: 16px;
+}
+/* ------------------------------------------- */
+

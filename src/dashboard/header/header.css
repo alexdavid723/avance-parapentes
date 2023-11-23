@@ -1,0 +1,157 @@
+
+.header-container{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+.content-left{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button-close-sidebar{
+    width: 40px;
+    height: 40px;
+    margin-left: 8px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+}
+.button-close-sidebar svg{
+    width: 25px;
+    height: 25px;
+    fill: #707070;
+    overflow: hidde;
+}
+.content-right{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    /* background: orange; */
+}
+.options-icons{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.icon-help{
+    width: 44px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: red; */
+}
+.icon-help svg{
+    width: 30px;
+    height: 30px;
+    border-radius: 3px;
+    cursor: pointer;
+    color:#707070;
+}
+.icon-notification{
+    width: 44px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: lightgreen; */
+}
+.icon-notification svg{
+    width: 28px;
+    height: 28px;
+    border-radius: 3px;
+    /* background: orange; */
+    cursor: pointer;
+    color:#707070;
+}
+.separator-content{
+    width: 18px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-right: 5px; */
+}
+.separator{
+    width: 2px;
+    height: 32px;
+    background: #707070;
+    border-radius: 3px;
+}
+
+.user-info{
+    width: 180px;
+    height: 100%;
+    display: flex;
+}
+.info-img{
+    width: 50px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.img-user{
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img-user img{
+    width: 42px;
+    height: 42px;
+}
+
+.info-text{
+    width: calc(100% - 42px);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.text-username{
+    font-size: 16px;
+    font-weight: 600;
+    user-select: none;
+}
+.text-rol{
+    transform: translateY(-3px);
+    font-size: 13px;
+    user-select: none;
+}
+
+.option-menu{
+    width: 30px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: red; */
+}
+.ico-menu{
+    width: 20px;
+    height: 70%;
+    /* background: lightgreen; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.ico-menu svg{
+    width: 100%;
+    height: 100%;
+    /* background: blue; */
+}

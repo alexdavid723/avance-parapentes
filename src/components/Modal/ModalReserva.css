@@ -1,0 +1,115 @@
+.modal-container-reservations{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    background: rgba(226, 229, 234, 0.7);
+}
+.content-modal-reservat{
+    width: 1368px;
+    height: 850px;
+    border: 1px solid #D9DEE2;
+    border-radius: 10px;
+    background: #fff;
+    padding: 10px 25px 25px 25px;
+    box-shadow: 0 5px 20px rgba(217,222,225,08);
+    display: flex;
+    flex-direction: column;
+}
+.header-reservations{
+    width: 100%;
+    height: 35px;
+    /* background: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.title-reservations{
+    font-size: 20px;
+}
+.butron-close-reser{
+    width: 35px;
+    height: 100%;
+    transform: translateX(6px);
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background: #fff;
+}
+.content-reservations{
+    width: 100%;
+    height: 100%;
+    /* background: green; */
+    padding: 0 15px;
+}
+.reservations-img-inputs{
+    width: 100%;
+    height: calc(100% - 42px);
+    background: blue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.inputs-reservations{
+    flex: 1;
+    height: 100%;
+    background: orange;
+}
+.upload-images{
+    flex: 1;
+    height: 100%;
+    background: powderblue;
+}
+.buttons-reservations{
+    width: 100%;
+    height: 42px;
+    /* background: lightgreen; */
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 20px;
+}
+.button-save-reser{
+    width: 120px;
+    height: 100%;
+    cursor: pointer;
+    background: #267FFF;
+    outline: none;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+}
+.button-cancel-reser{
+    width: 120px;
+    height: 100%;
+    cursor: pointer;
+    background: #fff;
+    outline: none;
+    color: #222;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid #D9DEE2; 
+}
+@media (max-height: 850px) {
+    .content-modal-reservat{
+        width: 100%;
+        height: 100%;
+        border: 1px solid #D9DEE2;
+        border-radius: 0;
+        background: #fff;
+        padding: 10px 25px 25px 25px;
+        box-shadow: 0 0 0 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .content-reservations{
+        width: 100%;
+        height: 100%;
+        padding: 0;
+    }
+  }
